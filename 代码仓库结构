@@ -1,0 +1,12 @@
+pdf_email_agent/
+├── README.md
+├── requirements.txt
+├── .env.example
+├── agent.py                 # 主代理循环
+├── tools/
+│   ├── __init__.py
+│   ├── pdf_reader.py        # 提取PDF文本
+│   └── email_sender.py      # 发送邮件
+├── prompts/
+│   └── system_prompt.txt    # 系统提示
+└── test_sample.pdf          # 示例PDF（测试用）
